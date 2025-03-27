@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.27.0] - 2025-03-27
+
+- upgrade to Prisma@6
+
+### Changed
+
+- set `prisma` and `@prisma/client` as peerDependencies [#67][i67]
+- `DateTime` field and `@default(now())` attribute prints dynamic date string [#71][i71]
+
+### Fixed
+
+- fix `@DtoOverrideType` on unique fields in ConnectDto [#68][i68]
+- remove `null` from optional relations in CreateDto and UpdateDto [#69][i69]
+
 ## [1.26.0] - 2025-03-15
 
 - update dependencies, upgrade to Prisma@5 [#66][i66]
@@ -418,3 +432,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [i64]: https://github.com/Brakebein/prisma-generator-nestjs-dto/issues/64
 [i65]: https://github.com/Brakebein/prisma-generator-nestjs-dto/issues/65
 [i66]: https://github.com/Brakebein/prisma-generator-nestjs-dto/issues/66
+[i67]: https://github.com/Brakebein/prisma-generator-nestjs-dto/issues/67
+[i68]: https://github.com/Brakebein/prisma-generator-nestjs-dto/issues/68
+[i69]: https://github.com/Brakebein/prisma-generator-nestjs-dto/issues/69
+[i71]: https://github.com/Brakebein/prisma-generator-nestjs-dto/issues/71
