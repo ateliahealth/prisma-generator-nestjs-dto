@@ -94,7 +94,7 @@ model Post {
   /// @DtoCreateOptional
   /// @DtoUpdateHidden
   createdAt   DateTime @default(now())
-  /// @DtoCastType(DurationLike, luxon)
+  /// @DtoOverrideType(DurationLike, luxon)
   timeUntilExpires Json?
 }
 ```
