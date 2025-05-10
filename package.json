@@ -1,14 +1,18 @@
 {
-  "name": "@brakebein/prisma-generator-nestjs-dto",
+  "name": "@atelia/prisma-generator-nestjs-dto",
   "description": "Generates DTO and Entity classes from Prisma Schema for NestJS",
   "version": "1.27.0",
   "license": "Apache-2.0",
   "author": {
-    "name": "Benjamin Kroeger",
-    "email": "bk@vegardit.com",
-    "url": "https://vegardit.com/"
+    "name": "Atelia",
+    "url": "https://github.com/ateliahealth"
   },
   "contributors": [
+    {
+      "name": "Benjamin Kroeger",
+      "email": "bk@vegardit.com",
+      "url": "https://vegardit.com/"
+    },
     {
       "name": "Brakebein",
       "url": "https://github.com/Brakebein"
@@ -41,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Brakebein/prisma-generator-nestjs-dto"
+    "url": "git+https://github.com/ateliahealth/prisma-generator-nestjs-dto.git"
   },
   "bin": {
     "prisma-generator-nestjs-dto": "dist/cli.js"
